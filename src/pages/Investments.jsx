@@ -1,9 +1,11 @@
 import React from 'react'
+import ChartRender from '../components/ChartRender'
 
 const Investments = () => {
   return (
-    <div>
-        Investments
+    <div className='bg-black h-screen p-4'>
+        
+        <ChartRender />
     </div>
   )
 }
